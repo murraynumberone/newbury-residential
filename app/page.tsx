@@ -19,7 +19,7 @@ export default async function Home() {
     <div className="bg-background font-sans">
       <Main>
         <Hero
-          imageSrc="https://www.newburyresidential.com/_next/image?url=https%3A%2F%2Fnewburypublic.s3.amazonaws.com%2Fwebsite%2Fpage-home-hero.jpg&w=3840&q=75"
+          imageSrc="/photos/page-home-hero.webp"
           states={states}
           citiesByState={citiesByState}
         />

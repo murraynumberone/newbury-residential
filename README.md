@@ -1,18 +1,12 @@
-This is a [Next.js](https://nextjs.org)
-(https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Newbury Residential
 
-## Getting Started
+Marketing site for [Newbury Residential](https://www.newburyresidential.com), a property management company. Built with Next.js and Tailwind CSS.
 
-First, run the development server:
+## Dev
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).

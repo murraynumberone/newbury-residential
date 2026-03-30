@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
@@ -49,9 +50,9 @@ export function Hero({
 
   return (
     <section
-      className="relative flex min-h-svh items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${imageSrc})` }}
+      className="relative flex min-h-svh items-center justify-center"
     >
+      <Image src={imageSrc} alt="" fill className="object-cover" priority />
       <Card className="bg-foreground/80 relative z-10 mx-4 w-full max-w-xl border-0 backdrop-blur-sm">
         <CardContent className="flex justify-center py-14">
           <div className="flex w-full max-w-md flex-col gap-6">
