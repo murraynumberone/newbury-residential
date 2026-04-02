@@ -22,7 +22,7 @@ export function PageHero({
   return (
     <section className={clsx("pb-16", className)} {...props}>
       {image != null ? (
-        <div className="relative aspect-16/5 w-full overflow-hidden">
+        <div className="relative aspect-square w-full overflow-hidden lg:aspect-16/5">
           {image}
         </div>
       ) : null}
